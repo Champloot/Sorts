@@ -1,3 +1,5 @@
+from random import randint
+
 def find_smallest(arr):
     smallest = arr[0]
     smallest_index = 0
@@ -14,9 +16,9 @@ def selection_sort(arr):
         sortArr.append(arr.pop(smallest))
     return sortArr
 
-arr = input().split()
-n = 0
-for i in arr:
-    arr[n] = int(i)
-    n+=1
+arr =[]
+for _ in range(20):
+    arr.append(randint(-30, 30))
+print(arr)
+
 print(selection_sort(arr))
