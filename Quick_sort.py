@@ -15,7 +15,5 @@ arr = []
 for _ in range(20):
     arr.append(randint(-30, 30))
 print(arr)
-
-qs = quick_sort(arr)
-print(qs)
+print(quick_sort(arr))
 
