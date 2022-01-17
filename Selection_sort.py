@@ -20,5 +20,5 @@ arr =[]
 for _ in range(20):
     arr.append(randint(-30, 30))
 print(arr)
-
 print(selection_sort(arr))
+
