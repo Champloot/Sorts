@@ -8,6 +8,7 @@ def find_smallest(arr):
         if arr[i] < smallest:
 	    smallest = arr[i]
 	    smallest_index=i
+		
     return smallest_index
 
 
@@ -16,6 +17,7 @@ def selection_sort(arr):
     for i in range(len(arr)):
 	smallest = find_smallest(arr)
         sortArr.append(arr.pop(smallest))
+	
     return sortArr
 
 
