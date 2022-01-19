@@ -2,9 +2,9 @@ from random import randint
 
 
 def shaker_sort(arr):
-    array_length = len(arr)
+    length = len(arr)
     start = 0
-    end = array_length-1
+    end = length-1
     need_swap = True
 
     while need_swap:
