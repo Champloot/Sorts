@@ -39,3 +39,4 @@ for _ in range(20):
 
 print(arr)
 print(merge_sort(arr))
+
