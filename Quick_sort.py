@@ -11,9 +11,7 @@ def quick_sort(arr):
     return quick_sort(less) + [pivot] + quick_sort(greater)
 
 
-arr = []
-for _ in range(20):
-    arr.append(randint(-30, 30))
+arr = [randint(-30, 30) for _ in range(20)]
     
 print(arr)
 print(quick_sort(arr))
