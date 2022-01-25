@@ -16,9 +16,7 @@ def radix_sort(arr):
     return arr
 
 
-arr = []
-for _ in range(20):
-    arr.append(randint(0, 60))
+arr = [randint(0, 60) for _ in range(20)]
 
 print(arr)
 print(radix_sort(arr))
