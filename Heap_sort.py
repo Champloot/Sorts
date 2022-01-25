@@ -29,9 +29,7 @@ def heap_sort(arr):
     return arr
 
 
-arr = []
-for _ in range(20):
-    arr.append(randint(-30, 30))
+arr = [randint(-30, 30) for _ in range(20)]
 
 print(arr)
 print(heap_sort(arr))
