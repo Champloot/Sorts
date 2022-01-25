@@ -21,9 +21,7 @@ def selection_sort(arr):
     return sortArr
 
 
-arr =[]
-for _ in range(20):
-    arr.append(randint(-30, 30))
+arr = [randint(-30, 30) for _ in range(20)]
 
 print(arr)
 print(selection_sort(arr))
